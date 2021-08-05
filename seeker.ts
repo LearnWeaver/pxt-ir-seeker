@@ -3,7 +3,7 @@
 //% groups='["Inputs"]'
 namespace BBR_IRSeeker {
 	
-    let irAddr = 0x8
+    let irAddr = 0x08
   
     //% block
     //% group=Inputs
@@ -25,13 +25,7 @@ namespace BBR_IRSeeker {
         return data[1];
     }
 
-    //% block
-    //% group=Inputs
-    export function test(): number {
-        
-        return 5;
-    }
-	
+    
 	
     let initialized = false;
     
