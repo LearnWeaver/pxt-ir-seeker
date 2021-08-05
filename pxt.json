@@ -1,0 +1,19 @@
+{
+    "name": "pxt-ir-seeker",
+    "version": "0.0.1",
+    "description": "Blocks for driving the Building Block Robotics IR Seeker",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "seeker.ts",
+        "shims.d.ts",
+        "enums.d.ts"
+    ],
+    "testFiles": [
+        "tests.ts"
+    ],
+    "public": true
+}
