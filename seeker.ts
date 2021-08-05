@@ -3,7 +3,7 @@
 //% groups='["Inputs"]'
 namespace BBR_IRSeeker {
 	
-    let irAddr = 0x08
+    let irAddr = 0x8
   
     //% block
     //% group=Inputs
