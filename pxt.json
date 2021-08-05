@@ -1,6 +1,6 @@
 {
     "name": "pxt-ir-seeker",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Blocks for driving the Building Block Robotics IR Seeker",
     "license": "MIT",
     "dependencies": {

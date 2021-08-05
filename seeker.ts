@@ -11,7 +11,7 @@ namespace BBR_IRSeeker {
         if(initialized == false){
             init();
         }
-        const data = pins.i2cReadBuffer(irAddr, 2, false);
+        const data = pins.i2cReadBuffer(irAddr, 2, true);
         return data[0];
     }
 	
@@ -21,8 +21,15 @@ namespace BBR_IRSeeker {
         if(initialized == false){
             init();
         }
-        const data = pins.i2cReadBuffer(irAddr, 2, false);
+        const data = pins.i2cReadBuffer(irAddr, 2, true);
         return data[1];
+    }
+
+    //% block
+    //% group=Inputs
+    export function test(): number {
+        
+        return 5;
     }
 	
 	
