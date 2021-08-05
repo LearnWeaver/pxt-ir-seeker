@@ -12,7 +12,7 @@ namespace BBR_IRSeeker {
             init();
         }
         const data = pins.i2cReadBuffer(irAddr, 2, true);
-        return data.getNumber(NumberFormat.Int8LE, 1);
+        return data[1];
     }
 	
     //% block
@@ -22,7 +22,7 @@ namespace BBR_IRSeeker {
             init();
         }
         const data = pins.i2cReadBuffer(irAddr, 2, true);
-        return data[1];
+        return data[2];
     }
 
     
